@@ -1,0 +1,46 @@
+@import url(../normalize.css);
+@import url(../vars.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-family: var(--main-font-family);
+    background: #E5E5E5;
+    font-size: var(--font-size-main);
+    color: #2B4F67;
+}
+
+.container {
+    width: 1200px;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    border-radius: 6px;
+    background: #fff;
+}
+.form__title {
+    color: #1C1C1C;
+    font-size: 24px;
+    font-weight: 500;
+}
+
